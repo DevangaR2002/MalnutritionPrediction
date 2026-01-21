@@ -1,0 +1,17 @@
+{
+  "model_type": "SoftVotingEnsemble",
+  "base_models": [
+    "RandomForest",
+    "XGBoost",
+    "CatBoost"
+  ],
+  "weights": [
+    0.4,
+    0.3,
+    0.3
+  ],
+  "threshold": 0.10164208190281886,
+  "objective": "High-recall malnutrition screening",
+  "target_definition": "1 = Malnourished, 0 = Normal/At_Risk",
+  "features_count": 28
+}
