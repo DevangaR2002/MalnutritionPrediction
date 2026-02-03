@@ -1,5 +1,3 @@
----
-````md
 # Hybrid Ensemble Model – Quick Run Guide
 
 This guide explains **only** how to create a virtual environment, install dependencies, and run  
